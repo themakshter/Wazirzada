@@ -16,11 +16,20 @@
 	color: white;
 }
 
-.fb-page{
-  margin-left: auto;
-  margin-right: auto;
-}
+.fb-page, .fb-page span, .fb-page span iframe
+  {
+     display: block !important;
+     margin:8px auto !important;
+  }
 
-.social-networks{
-  min-width: 300px;
+.fb_iframe_widget span iframe 
+{
+  margin-top:-14px !important;
+  margin-bottom:10px !important;
+}  
+
+fb-like span iframe , .fb_edge_widget_with_comment span iframe 
+{
+  margin-top:0 !important;
+  margin-bottom:0 !important;
 }
