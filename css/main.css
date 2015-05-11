@@ -33,3 +33,12 @@ fb-like span iframe , .fb_edge_widget_with_comment span iframe
   margin-top:0 !important;
   margin-bottom:0 !important;
 }
+
+.sticky-footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
